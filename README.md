@@ -31,15 +31,15 @@ CREATE TABLE netflix
     description  VARCHAR(550)
 );
 ```
-##Viewing Top 10 Rows from data
-```select * from netflix limit 5;```
+## Viewing Top 10 Rows from data
+```sql select * from netflix limit 5;```
 
---Total Contents
-select count(*)
+## Total Contents
+```select count(*)
 	as Total_Contents
-from netflix;
+from netflix;```
 
---FILLING THE NULL VALUES
+## FILLING THE NULL VALUES
 update netflix
 set type=coalesce(type, 'Not Available');
 
