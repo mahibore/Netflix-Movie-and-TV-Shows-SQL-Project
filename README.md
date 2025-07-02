@@ -31,16 +31,17 @@ CREATE TABLE netflix
     description  VARCHAR(550)
 );
 ```
-## Viewing Top 10 Rows from data
+## Viewing Top 5 Rows from data
 ```sql select * from netflix limit 5;```
 
 ## Total Contents
-```select count(*)
+```sql select count(*)
 	as Total_Contents
-from netflix;```
+from netflix;
+```
 
 ## FILLING THE NULL VALUES
-update netflix
+```sql update netflix
 set type=coalesce(type, 'Not Available');
 
 select * from netflix;
@@ -89,7 +90,7 @@ WHERE director IS NULL
    OR title IS NULL
    OR description IS NULL
    OR duration IS NULL;
-
+```
 
 
 
