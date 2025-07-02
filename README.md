@@ -35,8 +35,7 @@ CREATE TABLE netflix
 ```sql select * from netflix limit 5;```
 
 ## Total Contents
-```sql select count(*)
-	as Total_Contents
+```sql select count(*) as Total_Contents
 from netflix;
 ```
 
@@ -76,9 +75,10 @@ date_added=coalesce(date_added,'Date is Not Available');
 update netflix set rating='TV-MA' where rating isnull;
 
 select rating, count(*) as rating_count from netflix group by rating order by 2 desc;
+```
 
---CHECKING ALL THE NULL VALUES
-SELECT *
+## CHECKING ALL THE NULL VALUES
+```sql SELECT *
 FROM netflix
 WHERE director IS NULL
    OR casts IS NULL
