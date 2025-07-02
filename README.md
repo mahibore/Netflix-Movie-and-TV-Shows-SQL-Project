@@ -35,8 +35,7 @@ CREATE TABLE netflix
 ```sql select * from netflix limit 5;```
 
 ## Total Contents
-```sql select count(*) as Total_Contents
-from netflix;
+```sql select count(*) as Total_Contents from netflix;
 ```
 
 ## FILLING THE NULL VALUES
