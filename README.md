@@ -250,11 +250,8 @@ group by 1;
 
 This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
 
-### Stay Updated and Join the Community
 
-For more content on SQL, data analysis, and other data-related topics, make sure to follow me on social media and join our community:
-
-- **Instagram**: [Follow me for daily tips and updates](https://www.instagram.com/zero_analyst/)
-- **LinkedIn**: [Connect with me professionally]((https://www.linkedin.com/in/maheshbore03/))
+- **Instagram**: (https://www.instagram.com/decent_mahi03/)
+- **LinkedIn**: (https://www.linkedin.com/in/maheshbore03/)
 
 Thank you for your support, and I look forward to connecting with you!
